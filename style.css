@@ -1,0 +1,158 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-image: url(Images/bg.png);
+    min-width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .hero{
+    background-color: rgba(255,255,255,0.35);
+    backdrop-filter: blur(25px);
+    width: 80%;
+    height: 80vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.player, .content{
+    width: 50%;
+
+}
+
+.player img{
+    width: 400px;
+}
+
+.main-logo img{
+    width: 100%;
+}
+
+.on-install{
+    font-size: .8rem;
+    text-align: center;
+    display: none;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.name-logo{
+    width: 300px;
+    height: auto;
+    margin-left: 40px ;
+}
+
+.name-logo img{
+    width: 100%;
+}
+
+.brand-name{
+    color: green;
+    font-weight: bold;
+}
+
+.ads{
+    font-size: 1rem;
+    color: black;
+}
+
+#install{
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+#install:hover{
+    background-color: rgb(0,95,0);
+}
+
+.about{
+    padding: 20px 0;
+
+}
+
+.about-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.heading{
+    font-size: 1.5rem;
+    color: rgb(22,19,19);
+
+}
+
+.about-head .icon i{
+    padding: 0.5rem;
+    border: 1px solid rgb(65,64,64);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.aboutp{
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    margin-right: 20px ;
+    font-size: .8rem;
+}
+
+.review h2{
+    text-align: center;
+}
+
+.rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.stars i{
+    color: green;
+}
+
+.rate-review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
